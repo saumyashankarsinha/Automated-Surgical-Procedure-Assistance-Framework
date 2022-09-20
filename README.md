@@ -20,10 +20,10 @@ As a result, improved support for these surgeries is needed to provide surgeons 
 
 ## Proposed Framework
 We propose an approach to develop an automated surgical procedure assistance framework, leveraging:
-- ***Deep learning** : Tool identification module
+- **Deep learning** : Tool identification module
     - We use Faster R-CNN to identify the surgical instruments/tools used to perform the surgical procedure.
-- ***Formal methods** : Monitoring module
-    - - Based on the knowledge of the clinical guidelines from the domain expert surgeons, the key policies to be followed for safe
+- **Formal methods** : Monitoring module
+    - Based on the knowledge of the clinical guidelines from the domain expert surgeons, the key policies to be followed for safe
 surgical procedure can be understood. 
     - From that understanding, we formally specify the policies from which a monitor is synthesized. 
     - The monitor will identify any bad behaviour during a surgical procedure by looking at the sequence, time of tools’
