@@ -1,7 +1,11 @@
 # Automated-Surgical-Procedure-Assistance-Framework
 Automated Surgical Procedure Assistance Framework using Deep Learning and Formal Runtime Monitoring
 There have been tremendous developments in minimally invasive approaches (e.g., laparoscopic Surgeries) for various surgical treatments.
-![This is an image](https://github.com/saumyashankarsinha/Automated-Surgical-Procedure-Assistance-Framework/blob/main/Images/laparascopy.jpeg))
+<p align="center">
+  <img src="[https://github.com/saumyashankarsinha/BMRE/blob/main/Images/Gp.jpg](https://github.com/saumyashankarsinha/Automated-Surgical-Procedure-Assistance-Framework/blob/main/Images/laparascopy.jpeg)">
+</p>
+
+
 Due to the benefits for patients such as:
 - less pain
 - faster recovery
