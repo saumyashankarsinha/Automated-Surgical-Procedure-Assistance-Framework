@@ -31,7 +31,12 @@ occurance, etc. and intimate the surgeons about it.
 ![This is an image](https://github.com/saumyashankarsinha/Automated-Surgical-Procedure-Assistance-Framework/blob/main/Images/arch2.png)
 
 
-## Proposed Framework
+## Tool identification module 
+**Faster R-CNN :**
+Faster R-CNN is a region-based CNN technique mainly developed for object detection. The approach is inclined towards real-time object detection. Faster R-CNN introduced Region Proposal Network (RPN), which increased its performance over Fast R-CNN. RPN takes an image as input and gives a set of proposed regions where objects can be found, as output. We are using a pretrained CNN model of VGG-16 with 13 sharable layers. It is connected to two fully connected layers- a box regression layer (reg) and a box classification layer (cls). We are using a 3 × 3 spatial window size on this input image to generate region proposals.
 
+**Dataset :** 
+In M2CAI tool presence detection challenge, Cholec80 provided a dataset having 80 surgical videos with phase and tool annotations. The frames had been binary classified for presence or absence of 7 tools - Grasper, Hook, Scissors, Specimen bag, Bipolar, Clipper and Irrigator. The modified version of this dataset has been used for experimentation here. Out of 2811 frames, having spatial bounding boxes annotations around the tools done by experts 2248 and 563 are used for training and validation respectively. These frames contain at most three tools being used simultaneously. 
+![This is an image](https://github.com/saumyashankarsinha/Automated-Surgical-Procedure-Assistance-Framework/blob/main/Images/tool_detection_output2.png)
 
  
