@@ -66,3 +66,6 @@ on the usage of tool in the complete surgery, etc.
 ## Conclusion
 This work presents a complete framework using DL and runtime monitoring for developing an automated surgical procedure assistant. In this approach, we
 use Faster R-CNN to identify the surgical tools used to perform the surgical procedure. Then, we specify some policies on tools’ usage pattern that should be obeyed during a good surgical procedure. We obtain a monitoring code out of the policies. It will identify a bad behaviour in a surgical procedure. This way, we can catch any violation in the tool’s usage during the surgical procedure and can alert surgeons to take immediate corrective measures.
+
+## Download and run
+The framework is implemented and is available for download at https://doi.org/10.5281/zenodo.6899355 .
