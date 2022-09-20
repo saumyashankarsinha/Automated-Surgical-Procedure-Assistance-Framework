@@ -29,6 +29,6 @@ surgical procedure can be understood.
   - The monitor will identify any bad behaviour during a surgical procedure by looking at the sequence, time of tools’
 occurance, etc. and intimate the surgeons about it. 
 
-![This is an image]([https://github.com/saumyashankarsinha/Automated-Surgical-Procedure-Assistance-Framework/blob/main/Images/laparascopy.jpeg](https://github.com/saumyashankarsinha/Automated-Surgical-Procedure-Assistance-Framework/blob/main/Images/arch2.png)))
+![This is an image](https://github.com/saumyashankarsinha/Automated-Surgical-Procedure-Assistance-Framework/blob/main/Images/arch2.png)
 ***deep learning.** 
  
