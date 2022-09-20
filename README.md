@@ -48,15 +48,17 @@ We evaluate our model performance on test images and videos. The below Figure sh
 **Runtime Enforcement** (RE) approaches are an extension of the RV approachs, concentrating on ensuring that the executions of systems being monitored are consistent with some desired policy. An enforcement monitor converts an (untrustworthy) input execution (series of events) into a policy-compliant
 output sequence of events (e.g., defining a desired safety requirement). In order to do so, an enforcement monitor performs certain evasive actions to prevent the violation. These evasive actions might include blocking the execution, modifying input sequence by suppressing and/or inserting actions, and buffering input actions until a future time when it could be forwarded.
 
-**Experimentation & Example policies**
+**Experimentation & Example policies.**
+
 In this work, we employ formal runtime monitoring approaches for “assessing” a surgical procedure and thus providing assistance to the surgeon, in the form of feedback during the surgeries. We write policies and synthesize “verification” monitor out of it. We use approaches which synthesize the monitoring code directly from the specified policies. 
 
 Example policies:
 
 Below we write simple policies which analyzes tool usage patterns and are used to validate a surgical procedure:
-– P 1 : “Tool T 2 (e.g. Irrigator) should not be used after tool T 3 (e.g. Specimen
+- P 1 : “Tool T 2 (e.g. Irrigator) should not be used after tool T 3 (e.g. Specimen
 Bag)”;
-– P 2 : “Tool T 1 (e.g. Bipolar) should not be used for more than 20 t.u. continuously”.
+
+- P 2 : “Tool T 1 (e.g. Bipolar) should not be used for more than 20 t.u. continuously”.
 
 One can also include other policies, for example, a policy which keeps a count
 on the usage of tool in the complete surgery, etc.
