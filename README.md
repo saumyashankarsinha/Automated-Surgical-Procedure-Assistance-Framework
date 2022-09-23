@@ -32,7 +32,7 @@ We propose an approach to develop an automated surgical procedure assistance fra
 - Deep learning
 - Formal methods
 
-The basic idea is that, we use Deep learning (Faster R-CNN) approaches to build a tool identification module which will be used to identify the surgical instruments/tools used to perform the surgery. And then based on the tool usage pattern information obtained from the tool identification module, we assess the surgery using runtime monitoring formal methods approaches. 
+The basic idea is that, we use Deep learning (Faster R-CNN) approaches to build a tool identification module which will be used to identify the surgical instruments/tools used to perform the surgery. And then based on the tool usage pattern information obtained from the tool identification module, we assess the surgery using runtime monitoring formal approaches. 
 
 
 Thus, the steps are:
@@ -47,7 +47,7 @@ Thus, the steps are:
     - The monitor will identify any violation of the specified guidelines in the subsequent frames.
     - In case of violation, it will alert the surgeons about the violation. And the surgeons can take corrective measures.
 
-![Architecture]([/home/iit/Pictures/Automated-Surgical-Procedure-Assistance-Framework-main/Images//](https://github.com/saumyashankarsinha/Automated-Surgical-Procedure-Assistance-Framework/blob/main/Images/architecture.jpg)
+![Architecture](https://github.com/saumyashankarsinha/Automated-Surgical-Procedure-Assistance-Framework/blob/main/Images/architecture.jpg)
 
     
 ***
@@ -97,6 +97,7 @@ Bag)”;
 
 ## Conclusion
 (This sect. summarizes Sect. 7 of the paper)
+
 This work presented a framework for developing an automated surgical procedure assistant using Deep Learning and Formal Runtime monitoring approaches. Here, we used Faster R-CNN to identify the surgical instruments used in a frame. We specify some policies on tools’ usage pattern that should be obeyed during a good surgery and synthesized a monitor out of it which will identify a bad behaviour in the surgery. This way, we can catch any violation in the tool’s usage during a surgery and can alert surgeons to take immediate corrective measures.
 
 ***
