@@ -1,6 +1,8 @@
 # Automated-Surgical-Procedure-Assistance-Framework
 
-[1] Gaurav Gupta, Saumya Shankar, and Srinivas Pinisetty, Automated Surgical Procedure Assistance Framework using Deep Learning and Formal Runtime Monitoring, 22nd International Conference on Runtime Verification (RV'22), 2022 [accepted]
+[1] Gaurav Gupta, Saumya Shankar, and Srinivas Pinisetty. Automated surgical procedure assistance framework using deep learning and formal runtime monitoring. In Thao Dang and Volker Stolz, editors, Runtime Verification, pages 25–44, Cham, 2022. Springer International Publishing. doi- https://doi.org/10.1007/978-3-031-17196-3_2
+
+Gaurav Gupta, Saumya Shankar, and Srinivas Pinisetty, Automated Surgical Procedure Assistance Framework using Deep Learning and Formal Runtime Monitoring, 22nd International Conference on Runtime Verification (RV'22), 2022 [accepted]
 
 This work has been accepted for presentation at the 22nd International Conference on Runtime Verification (RV'22) (https://rv22.gitlab.io/)
 
